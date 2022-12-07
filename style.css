@@ -1,0 +1,24 @@
+body {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              min-height: 100vh;
+
+}
+
+.clock {
+              max-width: 500px;
+              border: 2px solid black;
+              padding: 2rem;
+              font-size: 2rem;
+              border-radius: 1rem;
+              box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+.time {
+              box-shadow: inset 2px 5px 5px rgba(0, 0, 0, 0.2),
+                            inset -2px -5px 5px rgba(0, 0, 0, 0.2);
+              padding: 10px;
+              border-radius: 5px;
+
+}
